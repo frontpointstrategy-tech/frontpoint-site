@@ -8,7 +8,7 @@ if(f){f.addEventListener("submit",async e=>{
     if(!r.ok)throw new Error();
     f.reset();s.className="status ok";s.textContent="Message sent. We'll reply by email.";
   }catch(_){
-    s.className="status err";s.innerHTML='The message did not send. Try again, or email <a href="mailto:engage@frontpointstrategy.com">engage@frontpointstrategy.com</a>.';
+    s.className="status err";s.textContent="The message did not send. Please check your connection and try again.";
   }
   b.disabled=false;b.textContent="Send message";
 });}
