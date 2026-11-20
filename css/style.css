@@ -132,3 +132,5 @@ footer p{margin:0}
 .logo-wall .sq img{max-height:68px}
 @media(max-width:900px){.logo-wall li{flex-basis:calc((100% - 32px)/3)}}
 @media(max-width:560px){.logo-wall{gap:12px}.logo-wall li{flex-basis:calc((100% - 12px)/2);height:92px;padding:14px 16px}.logo-wall img{max-height:38px}.logo-wall .sq img{max-height:56px}}
+.wall-title{max-width:30ch;text-wrap:balance}
+.wall-title.second{margin-top:72px}
